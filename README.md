@@ -1,4 +1,29 @@
-# Payout Engine
+# Playto Payout Engine
+
+## Live app
+
+**https://playto-payout-engine-peach.vercel.app/**
+
+The hosted sandbox visualizes the payout state machine documented in the Django backend:
+
+- append-style ledger
+- available balance derived from ledger entries
+- idempotency-key replay protection
+- HOLD on payout creation
+- COMPLETED + DEBIT settlement
+- FAILED + RELEASE recovery
+- insufficient-balance rejection
+
+The original Django/DRF implementation remains in the repository as the backend reference. The browser version is a deterministic public demo and stores only local demo state in the visitor's browser.
+
+### Run the web demo locally
+
+```bash
+cd web
+python -m http.server 8000
+```
+
+---
 
 A payout-processing project that demonstrates merchant balances, ledger entries, idempotency and payout state transitions.
 
