@@ -2,7 +2,7 @@
 
 ## Live app
 
-**https://playto-payout-engine-peach.vercel.app/**
+**https://payout-engine-sankalp.vercel.app/**
 
 The hosted sandbox visualizes the payout state machine documented in the Django backend:
 
@@ -29,7 +29,6 @@ A payout-processing project that demonstrates merchant balances, ledger entries,
 
 ## Live demo
 
-**https://payout-engine-sankalp.vercel.app/**
 
 ## Original backend
 
